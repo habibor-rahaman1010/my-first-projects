@@ -1,4 +1,52 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.name {
+  color: red;
+}
+.ocapassion {
+  color: royalblue;
+}
+.welcome {
+  color: green;
+}
+.half_width h1 {
+  font-size: 35px;
+  line-height: 70px;
+}
+.half_width h3 {
+  margin-top: 18px;
+}
+.half_width p {
+  margin-top: 15px;
+}
+.button {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  background: yellowgreen;
+  padding: 7px 30px;
+  border-radius: 5px;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  text-transform: uppercase;
+}
+section {
+  display: flex;
+}
+.half_width {
+  width: 50%;
+  padding: 2%;
+  margin: 2%;
+}
+.half_width img {
+  width: 80%;
+}
+.top_banner {
+  background: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
