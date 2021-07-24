@@ -40,13 +40,14 @@ section {
 }
 .half_width {
   width: 50%;
-  padding: 2%;
-  margin: 2%;
+  /* padding: 2%; */
+  padding-left: 6%;
+  margin: 2% 0;
 }
 .half_width img {
-  width: 80%;
+  width: 82%;
 }
 .top_banner {
-  background: url(images/top-banner.png);
+  background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
