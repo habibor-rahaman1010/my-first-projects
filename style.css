@@ -45,9 +45,32 @@ section {
   margin: 2% 0;
 }
 .half_width img {
-  width: 82%;
+  width: 90%;
+}
+.section-1 p {
+  text-align: justify;
+  color: rgb(88, 88, 88);
 }
 .top_banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left top;
+}
+.dream-big h1 {
+  color: rgb(179, 6, 35);
+}
+.section-2 {
+  margin-top: 90px;
+}
+.section-2 p {
+  width: 85%;
+  text-align: justify;
+  color: rgb(88, 88, 88);
+}
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
 }
